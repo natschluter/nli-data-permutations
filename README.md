@@ -2,6 +2,6 @@
 
 This is the code used for the paper.  Copy, use, ignore anything that is helpful to you.
 
-**Schluter, Natalie and Daniel Varab. (2018).** [*When data permutations are pathological: the case of neural natural language inference.*](http://aclweb.org/anthology/D18-1534)
+**Schluter, Natalie and Daniel Varab. (2018).** [*When data permutations are pathological: the case of neural natural language inference.*](http://aclweb.org/anthology/D18-1534) In Proceedings of EMNLP 2018.
 
 Requirements [python](https://anaconda.org/anaconda/python)>=3.6 numpy, scipy, sklearn, and keras.... 
