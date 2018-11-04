@@ -77,7 +77,7 @@ def save_embedding(embedding, path):
 
 def get_vocabulary():
 	print('Loading vocab...')
-	dataset_folder='/home/natalie/data/'
+	dataset_folder='data/' #your data folder here
 	text=[]
 
 	#load multi-nli dev/test, matched/mismatched set
