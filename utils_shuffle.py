@@ -135,8 +135,7 @@ def order_by_class(raw_data, orderbyclass):
     return rd_by_class[orderbyclass[0]]+rd_by_class[orderbyclass[1]]+rd_by_class[orderbyclass[2]]
 
 def sort_by_conf(raw_data, LABELS, decreasing):
-	#conf_file=open('/home/natalie/papers/antonym_old/score_folderneutral_safe/SNLI_EP-BiLSTM_DOT_DL3_sumLSTM/train_predictions_with_conf.txt','r')
-	conf_file=open('/home/natalie/papers/antonym_snli/score_folderbaseline/MULTI_MA_EP-BiLSTM_DOT_DL3_sumLSTM/train_predictions_with_conf.txt','r')
+	conf_file=open('train_predictions_with_conf.txt','r') #put confidence scores here
 	conf=[line.strip().split(',') for line in conf_file.readlines()[1:]]
 	rd=[]
 	for x in range(len(raw_data)):
