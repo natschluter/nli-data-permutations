@@ -69,9 +69,6 @@ if __name__ == "__main__":
 	if len(sys.argv) < 4:
 		print("Usage: score_with_annotations.py matched_annotations.txt PATH_TO_matched_submission.csv PATH_TO_matched.jsonl")
 
-	#annotations_filename = '/home/natalie/data/multinli_1.0_annotations/multinli_1.0_matched_annotations.txt'
-	#submission_filename = '/home/natalie/papers/antonym/score_folder/MULTI_MA_DOT_DL3_sumSUM/multinli_matched_predictions.txt'
-	#labels_filename = '/home/natalie/data/multinli_1.0/multinli_1.0_dev_matched.jsonl'
 	
 	annotations_filename = sys.argv[1]
 	submission_filename = sys.argv[2]
